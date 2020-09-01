@@ -1,0 +1,136 @@
+Link to finished codepen: https://codepen.io/reesharper/pen/XWdaLOV?editors=1100
+
+    1. What is Semantic HTML? 
+    it is html that gives meaning to your code 
+
+    2. What is HTML used for? 
+    the framework of the website including text and elements
+
+    3. What is an attribute and where do we put it? 
+    additional information about an element that are put in the start tag
+
+    4. What is the h1 tag used for? How many times should I use it on a page?
+    it is the title of the page and should only be used once
+
+    5. Name two tags that have required attributes
+    "img" and "a"
+
+    6. What do we put in the head of our HTML document? 
+    the title
+
+    7. What is an id? 
+    its an attribute used to specify an elements making it easier to call out later
+
+    8. What elements can I add an id to? 
+    all HTML elements
+
+    9. How many times can I use the same id on a page? 
+    Once!
+
+    10. What is a class? 
+    class is very similar to ID but can be used multiple time on the page
+
+    11. What elements can I add a class to? 
+    all HTML elements
+
+    12. How many times can I use the same class on a page? 
+    unlimited!
+
+    13. How do I get my link to open in a new tab?
+    use target="_blank" after the link
+
+    14. What is the alt attribute in the image tag used for? 
+    a brief discription to be read aloud for visually impaired users
+
+    15. How do I reference an id?
+    # then the id Name - EX:  #id
+
+    16. What is the difference between a section and a div
+    sections define the content when divs do not
+
+    17. What is CSS used for? 
+    styling HTML
+
+    18. How to we select an element? Example - every h2 on the page
+    h2 {}
+
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    id can only be use on one HTML element thus only used for a very specific adjustment such as one h2 element. 
+    Classes on the other hand can be used multiple times on a page thus can be called once in css to change multiple elements such as multiple divs 
+
+    20. How do we select classes in CSS?
+    . then class name - EX:  .class
+
+    21. How do we select a p element with a single class of “human””?
+    .human p {}
+
+    22. What is a parent child selector? When would this be useful? 
+    parent selectors over rule the child selector allowing you to edit multiple items through out the page while keeping the child elements unchanged
+
+    23. How do you select all links within a div with the class of sidebar?
+    .sidebar a {}
+
+    24. What is a pseudo selector?
+    used to define a specific state of an element such as hover or visited
+
+    25. What do we use the change the spacing between lines?
+    line-height:
+
+    26. What do we use to change the spacing between letters?
+    letter-spacing:
+
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    text-transform:
+
+    28. How do I add a 1px border around my div that is dotted and black?
+    border: 1px dotted black;
+
+    29. How do I select everything on the page?
+    * {}
+
+    30. How do I write a comment in CSS?
+    /* comment */
+
+    31. How do I find out what file I am in, when I am using the command line? 
+    pwd
+
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+    ls
+
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    rm   you need to be careful because there is no reversing this and there is no "are you sure" confirmation 
+
+    34. Why should I use version control? 
+    in order to go back to a previous version if one gets too broken to repair or sort out
+
+    35. How often should I commit to github?
+    as often as possible, try to break up work into mini tasks and commit after each significant change.
+
+    36. What is the command we would use to push our repo up to github? 
+    git push -u origin "branch name"
+
+    37. Walk me through Lambda's git flow. 
+        1. fork repo
+        2. add TL as a collaborator
+        3. clone repo using HTTPS link
+        4. inside git use cd command to open folder wanted for the project
+        5. use: git clone <link for repo>
+        6. cd into repo 
+        7. create a branch using: git checkout -b "firstname-lastname"
+        8. work on project
+        9. use: git add.
+        10. use: git commit -m "then write a meaningful message in these quotes about what you changed"
+        11. push commits using: git push -u "branch-name"
+        12. enter github and select your branch to check push and commits.
+        13. select "new pull request" using your branch name
+        14. change base repository to your forked repo
+        15. add TL to the reviewers and submit pull request
+
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+    2. What happens when an element is positioned absolutely? 
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
